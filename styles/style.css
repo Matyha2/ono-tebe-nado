@@ -19,7 +19,7 @@
 .header__link_active {
   color: #000000;
   font-size: 18px;
-  text-underline-offset:4px;
+  text-underline-offset: 4px;
 }
 .header__links-list-item_no-bullit {
   list-style: none;
@@ -30,7 +30,8 @@
 .header__links-list-item {
   list-style: circle;
 }
-.header__address,.footer__address {
+.header__address,
+.footer__address {
   display: block;
   max-width: 220px;
   line-height: 24px;
@@ -59,8 +60,8 @@ address {
   z-index: 1;
   padding: 156px 50px 50px 50px;
   background-image: url(../images/cover.jpg);
-  background-size: cover;
   background-position: 50% 50%;
+  background-size: cover;
 }
 .overlay {
   position: absolute;
@@ -72,12 +73,12 @@ address {
   background-color: rgba(0, 0, 0, 0.6);
 }
 .cover__title {
-  width: 100%;
   position: relative;
   z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
   margin-bottom: 95px;
   color: white;
   font-size: 100px;
@@ -96,7 +97,7 @@ address {
 .aligned-text_right {
   text-align: right;
 }
-.last__letter{
+.last__letter {
   letter-spacing: 0;
 }
 .cover__description-text {
@@ -139,9 +140,9 @@ address {
   min-height: 596px;
   padding: 48px 40px;
   list-style: none;
-  background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .lots__card-list {
   display: grid;
@@ -185,7 +186,7 @@ address {
   margin-left: 40px;
   color: #000000;
   font-size: 20px;
-  text-underline-offset:4px;
+  text-underline-offset: 4px;
 }
 .about {
   padding: 96px 24px 24px;
@@ -237,10 +238,10 @@ address {
   font-size: 18px;
 }
 .footer__menu-list {
+  font-size: 18px;
+  line-height: 22px;
   text-align: center;
   list-style: none;
-  line-height: 22px;
-  font-size: 18px;
 }
 .footer__menu-list-item > a {
   color: #000000;
